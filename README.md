@@ -1,5 +1,7 @@
 # [Docker Compose Getting Started](https://docs.docker.com/compose/gettingstarted/)
 
+![logo](Docker-Compose-Logo.webp)
+
 ## Requirements
 
 1. Create a directory for the project:
