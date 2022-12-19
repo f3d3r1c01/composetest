@@ -1,5 +1,7 @@
 # [Docker Compose Getting Started](https://docs.docker.com/compose/gettingstarted/)
 
+## Requirements
+
 1. Create a directory for the project:
 ```bash
 mkdir composetest
@@ -36,6 +38,9 @@ def hello():
 flask
 redis
 ```
+
+## Dockerfile
+
 4. In your project directory, create a file named Dockerfile
 ```Dockerfile
 # syntax=docker/dockerfile:1
@@ -50,6 +55,9 @@ EXPOSE 5000
 COPY . .
 CMD ["flask", "run"]
 ```
+
+## Docker Compose
+
 5. Create a file called docker-compose.yml in your project directory
 ```yaml
 version: "3.9"
@@ -70,6 +78,9 @@ docker compose up
 ```bash
 docker compose down
 ```
+
+## Bind Mount
+
 9. Edit docker-compose.yml in your project directory to add a bind mount for the web service
 ```yaml
 version: "3.9"
